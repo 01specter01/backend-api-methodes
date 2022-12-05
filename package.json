@@ -1,0 +1,23 @@
+{
+    "name": "backend-api-methodes",
+    "version": "1.0.0",
+    "description": "```js # Aufgabe 1",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server.mjs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/01specter01/backend-api-methodes.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/01specter01/backend-api-methodes/issues"
+    },
+    "homepage": "https://github.com/01specter01/backend-api-methodes#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
