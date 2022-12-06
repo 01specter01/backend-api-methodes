@@ -87,15 +87,15 @@ app.get("/module_inhalte", (req, res) => {
 // GET     /kategorien/:kategorieId/Produkte    200
 
 // ## Benutzerkonten
-// GET     /Benutzerkonten/:id    200
-// POST    /Benutzerkonten        201
-// PUT     /Benutzerkonten/:id    204
-// DELETE  /Benutzerkonten/:id    204
+// GET     /Benutzerkonten/:id                  200
+// POST    /Benutzerkonten                      201
+// PUT     /Benutzerkonten/:id                  204
+// DELETE  /Benutzerkonten/:id                  204
 //
 
 // ## Bestellungen
-// GET     /Bestellungen/:id    200
-// POST    /Bestellungen        201
-// PUT     /Bestellungen/:id    204
-// DELETE  /Bestellungen/:id    204
+// GET     /Bestellungen/:id                    200
+// POST    /Bestellungen                        201
+// PUT     /Bestellungen/:id                    204
+// DELETE  /Bestellungen/:id                    204
 //
