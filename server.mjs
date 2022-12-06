@@ -79,8 +79,12 @@ app.get("/module_inhalte", (req, res) => {
 });
 //2
 // ## Produkte
-// GET     /Produkte        200
-// GET     /Produkte/:id    200
+// GET     /Produkte                            200
+// GET     /Produkte/:id                        200
+
+// ## Kategorien
+// GET     /kategorien                          200
+// GET     /kategorien/:kategorieId/Produkte    200
 
 // ## Benutzerkonten
 // GET     /Benutzerkonten/:id    200
