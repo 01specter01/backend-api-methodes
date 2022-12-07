@@ -66,8 +66,18 @@ app.get("/kurse/:id", (req, res) => {
 // Kurse(POST):
 app.post("/kurse", (req, res) => {
     kurse.push(kurse.length);
+    res.status(201).json(kurse.length);
+});
+// Kurse(PUT):
+app.put("/kurse", (req, res) => {
+    const index = kurse.length - 1;
     res.json();
 });
+// Kurse(DELETE):
+// app.delete("/kurse", (req, res) => {
+//     const filter
+//     res.json();
+// });
 
 // Teilnehmer:
 app.get("/teilnehmer", (req, res) => {
